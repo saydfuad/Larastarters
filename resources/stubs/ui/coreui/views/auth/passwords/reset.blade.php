@@ -14,7 +14,7 @@
                       <use xlink:href="{{ asset('icons/coreui.svg#cil-envelope-open') }}"></use>
                     </svg></span>
                         <input class="form-control @error('email') is-invalid @enderror" type="text"
-                               placeholder="{{ __('Email') }}">
+                              name= "email" placeholder="{{ __('Email') }}">
                         @error('email')
                         <div class="invalid-feedback">
                             {{ $message }}
